@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- linking the css.-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- linking the javascript.-->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+	<!-- linking the jQuery.-->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+	  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+	  crossorigin="anonymous"></script>
+
+	<meta charset="UTF-8">
+	<title>HangRick</title>
+</head>
+<body>
+<div class="wrapper">
+	<h1>HangRick!</h1>
+	<h2>Press play to begin</h2>
+</div>
+<div class="floatLeft">
+<div class="pictures">
+	<img src="assets/images/pic0.png" id = "rick">
+	
+</div>
+<div class="wrapper">
+	<div id="buttons"></div>
+	<div class="container">
+		<button onclick="pickAWord()">Play</button>
+	</div>
+</div>
+</div>
+<div class="floatRight">
+<div id = "titles">
+	<p>Current Word: </p>
+	<p id = "blanks"></p>
+	<p id = "wins"></p>
+	<p id = "guesses"></p>
+	<p>Letters</p>
+</div>
+	<ul id="alphabet">
+		<li onclick="pickALetter('a')" class="letter">a</li>
+		<li onclick="pickALetter('b')" class="letter">b</li>
+		<li onclick="pickALetter('c')" class="letter">c</li>
+		<li onclick="pickALetter('d')" class="letter">d</li>
+		<li onclick="pickALetter('e')" class="letter">e</li>
+		<li onclick="pickALetter('f')" class="letter">f</li>
+		<li onclick="pickALetter('g')" class="letter">g</li>
+		<li onclick="pickALetter('h')" class="letter">h</li>
+		<li onclick="pickALetter('i')" class="letter">i</li>
+		<li onclick="pickALetter('j')" class="letter">j</li>
+		<li onclick="pickALetter('k')" class="letter">k</li>
+		<li onclick="pickALetter('l')" class="letter">l</li>
+		<li onclick="pickALetter('m')" class="letter">m</li>
+		<li onclick="pickALetter('n')" class="letter">n</li>
+		<li onclick="pickALetter('o')" class="letter">o</li>
+		<li onclick="pickALetter('p')" class="letter">p</li>
+		<li onclick="pickALetter('q')" class="letter">q</li>
+		<li onclick="pickALetter('r')" class="letter">r</li>
+		<li onclick="pickALetter('s')" class="letter">s</li>
+		<li onclick="pickALetter('t')" class="letter">t</li>
+		<li onclick="pickALetter('u')" class="letter">u</li>
+		<li onclick="pickALetter('v')" class="letter">v</li>
+		<li onclick="pickALetter('w')" class="letter">w</li>
+		<li onclick="pickALetter('x')" class="letter">x</li>
+		<li onclick="pickALetter('y')" class="letter">y</li>
+		<li onclick="pickALetter('z')" class="letter">z</li>
+	</ul>
+<!-- </div> -->
+</div>
+</body>
+</html>
